@@ -1,38 +1,21 @@
 package org.psiroky.test;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.junit.Test;
+
+import static junit.framework.Assert.assertTrue;
 
 /**
  * Unit test for simple App.
  */
 public class App2Test
-    extends TestCase
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public App2Test( String testName )
-    {
-        super( testName );
-    }
 
     /**
-     * @return the suite of tests being tested
+     * Rigorous Test :-)
      */
-    public static Test suite()
+    @Test
+    public void testApp()
     {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp2()
-    {
-        assertTrue( true );
+        assertTrue(false);
     }
 }
