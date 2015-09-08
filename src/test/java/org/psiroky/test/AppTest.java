@@ -7,11 +7,12 @@ import static org.junit.Assert.assertTrue;
 public class AppTest
 {
     /**
-     * Rigourous Test :-)
+     * Rigorous Test :-)
      */
     @Test
     public void testApp()
     {
+        blabla
         assertTrue( true );
     }
 
