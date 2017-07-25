@@ -17,5 +17,6 @@ public class App2Test
     public void testApp()
     {
         assertTrue(true);
+        assertTrue(false);
     }
 }
